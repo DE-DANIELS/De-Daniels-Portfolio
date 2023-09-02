@@ -1,68 +1,73 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-#nav{
-    margin-top: 100px;
-    margin-bottom: 20px;
+#nav {
+  margin-top: 100px;
+  margin-bottom: 20px;
 }
-span{
-    background: linear-gradient(to right, #412cdf, #d91e85);
-    margin-bottom: 25px;
+span {
+  background: linear-gradient(to right, #412cdf, #d91e85);
+  /* margin-bottom: 25px; */
+
+  /* The span you added here as messing with the span in the bootstrap mobile nav button icon  */
+  /* If you need to alter any different span, give it an id, and work on that id */
 }
-.heading{
-    font-size: 74px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background: -webkit-linear-gradient(#412cdf, #d91e85);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.heading {
+  font-size: 74px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background: -webkit-linear-gradient(#412cdf, #d91e85);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-#cartoon{
-    border-radius: 50%;
-    margin-right: 40px;
+#cartoon {
+  border-radius: 50%;
+  margin-right: 40px;
 }
-#about{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background: -webkit-linear-gradient(#412cdf, #d91e85);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+#about {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background: -webkit-linear-gradient(#412cdf, #d91e85);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-#detail{
-    padding: 100px 0;
+#detail {
+  padding: 100px 0;
 }
-.bi{
-    font-size: 35px;
-    background: -webkit-linear-gradient(#412cdf, #d91e85);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-     margin: 10px;
+.bi {
+  font-size: 35px;
+  background: -webkit-linear-gradient(#412cdf, #d91e85);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 10px;
 }
-.bi-download{
-    font-size: 20px;
-    background: white;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.bi-download {
+  font-size: 20px;
+  background: white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-.footer a{
-    margin-left: 10px;
-}   
-.Education{
-    color: #d91e85;
+.footer a {
+  margin-left: 10px;
 }
-.bi-tools, .bi-translate, .bi-envelope{
-    background: -webkit-linear-gradient(#412cdf, #d91e85);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.Education {
+  color: #d91e85;
 }
-#contact{
-    background: linear-gradient(to right, #412cdf, #d91e85);
-    padding: 90px 10px 50px;
+.bi-tools,
+.bi-translate,
+.bi-envelope {
+  background: -webkit-linear-gradient(#412cdf, #d91e85);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-#contact-page{
-    margin-top: 120px;
-    margin-bottom: 40px;
+#contact {
+  background: linear-gradient(to right, #412cdf, #d91e85);
+  padding: 90px 10px 50px;
 }
-.bi-envelope{
-    font-size: 55px;
+#contact-page {
+  margin-top: 120px;
+  margin-bottom: 40px;
+}
+.bi-envelope {
+  font-size: 55px;
 }
